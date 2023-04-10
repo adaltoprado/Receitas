@@ -1,10 +1,10 @@
 import { View, Text, StyleSheet } from 'react-native'
 
-export function Home() {
+export function Seach() {
     return (
         <View style={styles.container}>
             <Text>
-                Home Page
+                Página de Busca
             </Text>
         </View>
     )
@@ -12,6 +12,6 @@ export function Home() {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: 'red',
+        backgroundColor: "green",
     }
 })
