@@ -1,12 +1,12 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, SafeAreaView } from 'react-native'
 
 export function Home() {
     return (
-        <View style={styles.container}>
+        <SafeAreaView style={styles.container}>
             <Text>
                 Home Page
             </Text>
-        </View>
+        </SafeAreaView>
     )
 }
 
